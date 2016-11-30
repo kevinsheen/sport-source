@@ -115,10 +115,21 @@ Duh. This is Fantasy Football!!!</p>
   <div>
       <p>
         <a href="http://thehuddle.com/fantasy_football_news.php" 
-            onclick="_gaq.push(['_trackEvent', 'link', 'click', 'sports', 1, true]);" target="_blank">Check out more fantasy news here!</a>
+            >Check out more fantasy news here!</a>
+        
+        <script>
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'link',
+        eventAction: 'click',
+        eventLabel: 'sports' 
+       });
+        </script>
+        
       </p>
   </div>
   
+<!--   onclick="_gaq.push(['_trackEvent', 'link', 'click', 'sports', 1, true]);" target="_blank" -->
   
 <div id="injury-updates">
   <h2>Injury Updates</h2>
