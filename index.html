@@ -105,24 +105,25 @@ Duh. This is Fantasy Football!!!</p>
  
     <div>
 
+      <script>
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'videos',
+        eventAction: 'play',
+        eventLabel: 'sports' 
+       });
+     </script>
+      
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1AP0v-_HY4Q" frameborder="0" allowfullscreen></iframe>
     
     </div>
   
   <div>
     
-<!--     
-    ga('send', {
-        hitType: 'event',
-        eventCategory: 'link',
-        eventAction: 'click',
-        eventLabel: 'sports' 
-       });
-     </script> -->
       
     <p>
         <a href="https://www.google.com/analytics/" 
-            onclick="ga{'send', 'event', 'link', 'click', 'sports'};" target="_blank">Check out more fantasy news here!</a>
+            onclick="ga('send', 'event', 'link', 'click', 'sports');" target="_blank">Check out more fantasy news here!</a>
     </p>
   
   </div>
